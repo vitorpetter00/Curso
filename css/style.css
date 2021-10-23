@@ -1,0 +1,122 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #020731bb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(23, 122, 122);
+    text-align: center;
+    color: white;
+    padding: 10px;
+
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.formContainer{
+    
+    background-color: #FFFFFFBB;
+    
+    max-width: 230px;
+    
+    padding: 20px;
+    float: right;
+    
+
+}
+section{
+    padding: 20px;
+    background-image: url("../images/adm.png");
+    background-size: cover;
+    overflow:hidden;
+
+
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom:10px;
+}
+    
+input[type="submit"]{
+    color: white;
+    background-color: rgb(23, 122, 122);
+
+
+    
+}
+#registerfacebook{
+    
+    background-image: url("../images/face.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: right;
+}
+
+#registerEMAIL{
+    background-image: url("../images/gmail.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+}
+#p1{
+    text-align: center;
+    padding: 10px;
+}
+
+.footer{
+    min-height: 250px;
+    padding: 10px;
+    color: white;
+    text-align:center;
+    background-color: rgb(42, 42, 85);
+}
+.contfooter{
+   
+   
+
+
+
+}
+.description{
+    
+    margin-top: 20px;
+    
+    text-align: center;
+    
+    
+    
+}
+#link{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+#img{
+    position: relative;
+    max-width: 100px;
+    
+}
+@media screen and (max-width:700px){
+    .formContainer{
+        float: none;
+        margin: auto;
+    }
+}
+    
+
+

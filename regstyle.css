@@ -33,3 +33,16 @@ li{
     margin: 40px;
     background-color: rgb(0, 26, 26);
 }
+a{  color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.container a:hover{
+    
+    padding: 10px;
+    background-color: rgb(52, 70, 52);
+}
+#cont1{
+    background-color: rgb(38, 37, 107);
+    min-width: 100%;
+    min-height: 500px;
+}
